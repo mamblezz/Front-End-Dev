@@ -1,5 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    background-image: url(/images/ignasi.png);
 }
 #header {
     position: static;
@@ -51,6 +52,7 @@ body {
     height: auto;
     padding: 10px 0 0 20px; 
 }
+
 .clockdate-wrapper {
     background-color: #062578;
     padding: 25px;
@@ -58,8 +60,8 @@ body {
     width: 100%;
     text-align: center;
     border-radius: 5px;
-    margin: 0 auto;
-    margin-bottom: 10px;
+    margin: 10px auto;
+    
 }
 #clock {
     background-color: #062578;
@@ -67,6 +69,7 @@ body {
     font-size: 60px;
     text-shadow: 0px 0px 1px #fff;
     color: #fff;
+    border-radius: 5px;
 }
 #clock span {
     color: #888;
@@ -83,10 +86,11 @@ body {
     color: #fff;
 }
 .left {
-    position: absolute;
+    position:absolute;
     float: left;
-    height: 174.7%;
+    height: 196.4%;
     width: 70px;
+    margin-top: 1px;
     background-color: #0af;
 }
 .left ul {
